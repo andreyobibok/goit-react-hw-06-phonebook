@@ -1,3 +1,9 @@
+import ContactBook from './ContactBook/ContactBook';
+
 export const App = () => {
-  return <div></div>;
+  return (
+    <div>
+      <ContactBook />
+    </div>
+  );
 };
